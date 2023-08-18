@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "seed": "node seeds/index.js",
+    "lint": "npx eslint ./**/*.js --quiet",
+    "lint-fix": "npx eslint ./**/*.js --quiet --fix"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,7 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.3",
-    "eslint": "^6.1.0",
+    "eslint": "^7.9.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-prettier": "^3.1.2",
