@@ -108,6 +108,13 @@ If there is no package.json install one by running npm init
 [db](https://github.com/jarrodbb/E-Commerce-Back-End/tree/main/db)
 [config](https://github.com/jarrodbb/E-Commerce-Back-End/tree/main/config)
 
+### Video 
+
+[YouTube](https://youtu.be/B63wQ-bN9x0)
+[Mp4]()
+[Google Drive](https://drive.google.com/file/d/1eOp6iWDAroweUDYNkfhl_PmlWDjC7Keu/view)
+
+
 ## Usage
 
 ## Open Insomnia
