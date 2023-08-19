@@ -111,7 +111,7 @@ If there is no package.json install one by running npm init
 ### Video 
 
 [YouTube](https://youtu.be/B63wQ-bN9x0)
-[Mp4]()
+[Mp4](https://github.com/jarrodbb/E-Commerce-Back-End/tree/main/assets/video)
 [Google Drive](https://drive.google.com/file/d/1eOp6iWDAroweUDYNkfhl_PmlWDjC7Keu/view)
 
 
@@ -129,11 +129,15 @@ Include assosiated Products data
 
 /api/categories
 
+![Screenshot 2023-08-19 at 12 36 21 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/d5726937-7060-4ad6-a3a6-45da8f15427c)
+
 #### Get a single Category by its id (Get)
 
 Include assosiated Products data
 
 /api/categories/:id
+
+![Screenshot 2023-08-19 at 12 36 43 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/571b4081-0e33-41e2-b01b-cc5a8ebac0d5)
 
 #### Create a Category (Post)
 
@@ -141,13 +145,19 @@ Include assosiated Products data
 
 Include the category_name in the body
 
+![Screenshot 2023-08-19 at 12 37 17 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/474d830b-5e5f-4c0c-bb56-8f8b88c0f18f)
+
 #### Update a single Category by its id (Put)
 
 /api/categories/:id
 
+![Screenshot 2023-08-19 at 12 38 16 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/0ed3638e-de92-4f88-bc21-b1cc39ddc8f3)
+
 #### Delete a single Category by its id (Delete)
 
 /api/categories/:id
+
+![Screenshot 2023-08-19 at 12 38 32 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/82d3b053-1cbd-4c87-abb7-00e5076751d4)
 
 ### Tag
 
@@ -157,11 +167,15 @@ Include assosiated Products data
 
 /api/tags
 
+![Screenshot 2023-08-19 at 12 38 43 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/94223f5a-bdb3-4d87-a2f9-13d1aeb617df)
+
 #### Get a single Tag by its id (Get)
 
 Include assosiated Products data
 
 /api/tags/:id
+
+![Screenshot 2023-08-19 at 12 38 54 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/6128c5f2-d118-4a35-a224-c71d32f8bdbb)
 
 #### Create a new Tag (Post)
 
@@ -169,13 +183,19 @@ Include assosiated Products data
 
 Include the tag_name in the body
 
+![Screenshot 2023-08-19 at 12 39 11 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/92cd4b99-01da-4b53-b489-53a3312b6205)
+
 #### Update a single Tag by its id (Put)
 
 /api/tags/:id
 
+![Screenshot 2023-08-19 at 12 39 24 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/cb6286df-603e-4820-889d-1f6a71a688fd)
+
 #### Delete a single Tag by its id (Delete)
 
 /api/tags/:id
+
+![Screenshot 2023-08-19 at 12 39 39 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/c49333c2-6892-4514-9c65-8588c9972352)
 
 ### Product
 
@@ -185,11 +205,15 @@ Include assosiated Products and Tag data
 
 /api/products
 
+![Screenshot 2023-08-19 at 12 39 49 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/12115c4b-04c6-4cc2-985e-04c10c35410f)
+
 #### Get a single Product by its id (Get)
 
 Include assosiated Products and Tag data
 
 /api/products/:id
+
+![Screenshot 2023-08-19 at 12 40 09 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/b31ef83d-c4d4-4539-90e9-88e03c597518)
 
 #### Create a Product (Post)
 
@@ -201,11 +225,16 @@ price:
 stock:
 tagIds:
 
+![Screenshot 2023-08-19 at 12 40 46 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/b2d9b543-dd40-48ea-937d-ed138ecd411a)
+
 #### Update a single Product by its id (Put)
 
 /api/products/:id
 
+![Screenshot 2023-08-19 at 12 41 20 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/51cca605-a752-4522-8994-e368d6acfa17)
+
 #### Delete a single Product by its id (Delete)
+![Screenshot 2023-08-19 at 12 41 37 pm](https://github.com/jarrodbb/E-Commerce-Back-End/assets/132813348/e5e26e62-a4b1-42f7-9a6f-715723275ad5)
 
 /api/products/:id
 
