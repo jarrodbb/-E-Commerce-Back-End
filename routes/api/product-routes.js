@@ -1,12 +1,15 @@
+// Routers for products
+
 const router = require("express").Router();
+
+// Import from models/index.js where associations are assigned
 const { Product, Category, Tag, ProductTag } = require("../../models");
 
 // The `/api/products` endpoint
 
-// get all products
+// Route to get all products
+// Includes the products association with Category and Tag data
 router.get("/", async (req, res) => {
-  // find all products
-  // be sure to include its associated Category and Tag data
   try {
     const productData = await Product.findAll({
       include: [
@@ -14,20 +17,17 @@ router.get("/", async (req, res) => {
         { model: Tag, through: ProductTag, as: "product_tags" },
       ],
     });
-
     res.status(200).json(productData);
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
-// get one product
+// Router to get one Product by it 'id'
+// Includes the Product's associtated Category and Tag data
 router.get("/:id", async (req, res) => {
-  // find a single product by its `id`
-  // be sure to include its associated Category and Tag data
   try {
     const productData = await Product.findByPk(req.params.id, {
-      // JOIN with travellers, using the Trip through table
       include: [
         { model: Category },
         { model: Tag, through: ProductTag, as: "product_tags" },
@@ -43,9 +43,9 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// create new product
-router.post("/", (req, res) => {
-  /* req.body should look like this...
+// Router to create new Product
+// The body takes
+/* Example of req.body,
     {
       product_name: "Basketball",
       price: 200.00,
@@ -53,6 +53,7 @@ router.post("/", (req, res) => {
       tagIds: [1, 2, 3, 4]
     }
   */
+router.post("/", (req, res) => {
   Product.create(req.body)
     .then((product) => {
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
@@ -75,7 +76,7 @@ router.post("/", (req, res) => {
     });
 });
 
-// update product
+// Router to update a single product based on their 'id'
 router.put("/:id", (req, res) => {
   // update product data
   Product.update(req.body, {
@@ -119,8 +120,8 @@ router.put("/:id", (req, res) => {
     });
 });
 
+// Router to delete a single product based on thier 'id'
 router.delete("/:id", async (req, res) => {
-  // delete one product by its `id` value
   try {
     const deleteStatus = await Product.destroy({
       where: {
