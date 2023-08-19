@@ -101,17 +101,25 @@ If there is no package.json install one by running npm init
 - Run "npm run start" in the terminal to start the application
 
 [server.js](https://github.com/jarrodbb/E-Commerce-Back-End/blob/main/server.js)
+
 [package.json](https://github.com/jarrodbb/E-Commerce-Back-End/blob/main/package.json)
+
 [seeds](https://github.com/jarrodbb/E-Commerce-Back-End/tree/main/seeds)
+
 [routes](https://github.com/jarrodbb/E-Commerce-Back-End/tree/main/routes)
+
 [models](https://github.com/jarrodbb/E-Commerce-Back-End/tree/main/models)
+
 [db](https://github.com/jarrodbb/E-Commerce-Back-End/tree/main/db)
+
 [config](https://github.com/jarrodbb/E-Commerce-Back-End/tree/main/config)
 
 ### Video 
 
 [YouTube](https://youtu.be/B63wQ-bN9x0)
+
 [Mp4](https://github.com/jarrodbb/E-Commerce-Back-End/tree/main/assets/video)
+
 [Google Drive](https://drive.google.com/file/d/1eOp6iWDAroweUDYNkfhl_PmlWDjC7Keu/view)
 
 
