@@ -24,7 +24,7 @@ The user is able to,
 
 - Category including the associated Product data
 
-- Producy including the associated Category and Tag data
+- Product including the associated Category and Tag data
 
 - Tag including the associated Product data
 
@@ -32,7 +32,7 @@ The user is able to,
 
 - Category
 
-- Producy
+- Product
 
 - Tag
 
@@ -40,7 +40,7 @@ The user is able to,
 
 - Category
 
-- Producy
+- Product
 
 - Tag
 
@@ -48,17 +48,11 @@ The user is able to,
 
 - Category
 
-- Producy
+- Product
 
 - Tag
 
 ## Table of Contents
-
-- Category
-
-- Producy
-
-- Tag
 
 - [Installation](#installation)
 
@@ -133,7 +127,7 @@ When the application is running on localhost:3001 open Insomnia to check the bac
 
 #### Get all Categories (Get)
 
-Include assosiated Products data
+Include associated Products data
 
 /api/categories
 
@@ -141,7 +135,7 @@ Include assosiated Products data
 
 #### Get a single Category by its id (Get)
 
-Include assosiated Products data
+Include associated Products data
 
 /api/categories/:id
 
@@ -171,7 +165,7 @@ Include the category_name in the body
 
 #### Get all Tags (Get)
 
-Include assosiated Products data
+Include associated Products data
 
 /api/tags
 
@@ -179,7 +173,7 @@ Include assosiated Products data
 
 #### Get a single Tag by its id (Get)
 
-Include assosiated Products data
+Include associated Products data
 
 /api/tags/:id
 
@@ -209,7 +203,7 @@ Include the tag_name in the body
 
 #### Get all Products (Get)
 
-Include assosiated Products and Tag data
+Include associated Products and Tag data
 
 /api/products
 
@@ -217,7 +211,7 @@ Include assosiated Products and Tag data
 
 #### Get a single Product by its id (Get)
 
-Include assosiated Products and Tag data
+Include associated Products and Tag data
 
 /api/products/:id
 
